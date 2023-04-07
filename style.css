@@ -111,4 +111,6 @@ nav ul{
        margin-top: 120px;
        position: absolute;
     }
+    .image{
+        display: none;
   }
