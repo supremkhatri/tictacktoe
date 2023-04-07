@@ -56,7 +56,6 @@ nav ul{
 .image{
     width: 0;
     transition: width 1s ease-in-out;
-    
     padding: 8px;
 }
 
@@ -99,3 +98,17 @@ nav ul{
     transition: width 1s ease-in-out;
     position: absolute;
 }
+.welcome{
+    font-size: 6vw;
+}
+@media only screen and (max-width: 600px) {
+    .gamecontainer{
+        display: block;
+    }
+    .container{
+       margin-left: 25%;
+       margin-bottom: 50px;
+       margin-top: 120px;
+       position: absolute;
+    }
+  }
